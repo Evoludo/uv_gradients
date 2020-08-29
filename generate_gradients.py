@@ -115,8 +115,8 @@ def check_colors(value):
     except ValueError:
         prefixes = ['#', 'rgb', 'rgba']
         for prefix in prefixes:
+            prefixed_value = prefix + value
             try:
-                prefixed_value = prefix + value
                 ImageColor.getrgb(prefixed_value)
             except ValueError as e:
                 continue
@@ -131,13 +131,13 @@ def check_image_format(value):
 
     out_file = argparse.FileType('wb')(value)
     image = Image.new(size=(1, 1),
-                      mode='RGBA',
-                      color=(0, 0, 0, 0))
+                      mode='RGBA')
     try:
         image.save(out_file)
     except (ValueError, IOError) as e:
         raise argparse.ArgumentTypeError(str(e))
 
+    out_file.seek(0)
     return out_file
 
 
@@ -164,9 +164,9 @@ def draw_gradients(name, draw, base_x, base_y, block_size, canvas_size, gradient
         # color delta is a float, the final color values will need to be quantised to integers
         for line in range(block_size):
             draw.line(xy=[(base_x, base_y + line), (base_x + block_size - 1, base_y + line)],
-                      fill='rgb' + str(tuple([int(round(float(start_channel) + delta_channel * line))
-                                              for start_channel, delta_channel
-                                              in zip(start_color, delta)])),
+                      fill=tuple([int(round(float(start_channel) + delta_channel * line))
+                                 for start_channel, delta_channel
+                                 in zip(start_color, delta)]),
                       width=1)
 
         # Update the block map
