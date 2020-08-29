@@ -5,7 +5,8 @@ usage: generate_gradients.py [-h] [-f IMAGE_FILE] [-s BLOCK_SIZE]
                              [-m [MAP_FILE]]
                              COLOR [COLOR ...]
 
-Draw square blocks of colors and gradients onto a transparent background.
+Draw square blocks of colors and gradients using all combinations of pairs of
+those colors onto a transparent background.
 
 positional arguments:
   COLOR          Base set of colors to use when generating gradients. Valid

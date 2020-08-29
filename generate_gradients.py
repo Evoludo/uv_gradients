@@ -10,7 +10,9 @@ from PIL import Image, ImageColor, ImageDraw
 
 def main():
     # Parse command-line arguments
-    arg_parser = argparse.ArgumentParser(description='Draw square blocks of colors and gradients onto a transparent background.',
+    arg_parser = argparse.ArgumentParser(description='Draw square blocks of colors and gradients using all '
+                                                     'combinations of pairs of those colors onto a transparent '
+                                                     'background.',
                                          epilog='A square image will be produced, and its size will be automatically '
                                                 'calculated as the smallest square that will fit the number of blocks '
                                                 'generated, rounded up so its sides are a power of 2. Gradients are made '
