@@ -26,3 +26,11 @@ as the smallest square that will fit the number of blocks generated, rounded
 up so its sides are a power of 2. Gradients are made between all combinations
 of pairs of colors.
 ```
+
+# Example
+
+```
+./generate_gradients.py 8DB6C7 C1B38E D1C6BF CA9F92 F9CD97 E3D9B0 B1C27A B2E289 51C0BF 59ADD0 7095E1 9FA3E3 C993D4 DB8DB2 F1C3D0
+```
+
+![Example output](https://github.com/Evoludo/uv_gradients/raw/master/example/gradients.png "Example output")

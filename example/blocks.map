@@ -1,0 +1,974 @@
+{
+    "block_map": [
+        {
+            "name": "Base Colors",
+            "blocks": [
+                {
+                    "type": "gradient",
+                    "origin": "(0, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#8DB6C7"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#C1B38E"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#D1C6BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#CA9F92"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#F9CD97"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#E3D9B0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#B1C27A"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(512, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#51C0BF",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(576, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#59ADD0",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(640, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#7095E1",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(704, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#9FA3E3",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(768, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C993D4",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(832, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#DB8DB2",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(896, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F1C3D0",
+                    "end_color": "#F1C3D0"
+                }
+            ]
+        },
+        {
+            "name": "Color Gradients",
+            "blocks": [
+                {
+                    "type": "gradient",
+                    "origin": "(960, 0)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#C1B38E"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(0, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#D1C6BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#CA9F92"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#F9CD97"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#E3D9B0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#B1C27A"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(512, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(576, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(640, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(704, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(768, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#8DB6C7",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(832, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#D1C6BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(896, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#CA9F92"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(960, 64)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#F9CD97"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(0, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#E3D9B0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#B1C27A"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(512, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(576, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C1B38E",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(640, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#CA9F92"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(704, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#F9CD97"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(768, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#E3D9B0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(832, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#B1C27A"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(896, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(960, 128)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(0, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#D1C6BF",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#F9CD97"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#E3D9B0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(512, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#B1C27A"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(576, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(640, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(704, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(768, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(832, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(896, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(960, 192)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(0, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#CA9F92",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#E3D9B0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#B1C27A"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(512, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(576, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(640, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#F9CD97",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(704, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#B1C27A"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(768, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(832, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(896, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(960, 256)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(0, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#E3D9B0",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#B2E289"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(512, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(576, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(640, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(704, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B1C27A",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(768, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#51C0BF"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(832, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(896, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(960, 320)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(0, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#B2E289",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#51C0BF",
+                    "end_color": "#59ADD0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#51C0BF",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#51C0BF",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#51C0BF",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#51C0BF",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(512, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#51C0BF",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(576, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#59ADD0",
+                    "end_color": "#7095E1"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(640, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#59ADD0",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(704, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#59ADD0",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(768, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#59ADD0",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(832, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#59ADD0",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(896, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#7095E1",
+                    "end_color": "#9FA3E3"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(960, 384)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#7095E1",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(0, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#7095E1",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(64, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#7095E1",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(128, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#9FA3E3",
+                    "end_color": "#C993D4"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(192, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#9FA3E3",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(256, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#9FA3E3",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(320, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C993D4",
+                    "end_color": "#DB8DB2"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(384, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#C993D4",
+                    "end_color": "#F1C3D0"
+                },
+                {
+                    "type": "gradient",
+                    "origin": "(448, 448)",
+                    "height": 64,
+                    "width": 64,
+                    "start_color": "#DB8DB2",
+                    "end_color": "#F1C3D0"
+                }
+            ]
+        }
+    ]
+}
